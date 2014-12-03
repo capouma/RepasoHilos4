@@ -14,8 +14,15 @@ public class Repaso4 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args)
+    {
+        // Definimos nuestros 2 hilos.
+        Hilo hilo1 = new Hilo();
+        Hilo hilo2 = new Hilo();
+        
+        // Iniciamos los hilos
+        hilo1.start();
+        hilo2.start();
     }
     
 }
