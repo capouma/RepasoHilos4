@@ -17,8 +17,8 @@ public class Repaso4 {
     public static void main(String[] args)
     {
         // Definimos nuestros 2 hilos.
-        Hilo hilo1 = new Hilo();
-        Hilo hilo2 = new Hilo();
+        Hilo hilo1 = new Hilo("Hilo 1");
+        Hilo hilo2 = new Hilo("Hilo 2");
         
         // Iniciamos los hilos
         hilo1.start();
